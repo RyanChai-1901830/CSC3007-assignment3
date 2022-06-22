@@ -79,7 +79,7 @@ Promise.all([d3.json("https://chi-loong.github.io/CSC3007/assignments/sgmap.json
                 .style("top", (event.pageY) + "px")
                 .style("border", "solid")
                 .style("border-width", "1px")
-                .style("border-radius", "5px")
+                .style("border-radius", "10px")
                 .style("opacity", 1)
 
             let path = d3.select(event.currentTarget)
